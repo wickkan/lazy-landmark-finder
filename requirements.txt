@@ -8,3 +8,6 @@ tqdm
 Pillow
 matplotlib
 jupyter
+pyyaml
+tensorboard
+wandb
