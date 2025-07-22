@@ -1,1 +1,16 @@
 .venv
+data/images_000.tar
+data/train.csv
+data/train_000.csv
+train/
+test/
+index/
+models/
+outputs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.env
+.DS_Store
