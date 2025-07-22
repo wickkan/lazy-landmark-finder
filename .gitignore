@@ -1,4 +1,7 @@
 .venv
+data/images_000.tar
+data/train.csv
+data/train_000.csv
 train/
 test/
 index/

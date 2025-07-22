@@ -82,3 +82,24 @@ This project uses the [Google Landmarks Dataset v2 (GLDv2)](https://github.com/c
 ## License
 
 This project is for research and educational purposes. See dataset license above for data usage.
+
+## Example Results
+
+The current prototype was trained on a small subset of the Google Landmarks Dataset v2 (only `images_000.tar`, ~259 images/classes) for 5 epochs using a pre-trained ResNet18.
+
+**Evaluation on the training subset:**
+
+- Top-1 Accuracy: 0.35%
+- Top-5 Accuracy: 0.82%
+
+> **Note:**  
+> These results are expectedly low due to the extremely limited data and lack of a validation split. For meaningful results, train on a larger portion of the dataset and consider adding data augmentations and a validation set.
+
+---
+
+## Next Steps
+
+- Increase the dataset size by extracting more tar files.
+- Add data augmentations to improve generalization.
+- Implement a validation split for more realistic evaluation.
+- Experiment with different architectures and hyperparameters.
